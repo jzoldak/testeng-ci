@@ -119,7 +119,7 @@ def get_average_duration_org(org, num=5):
         key=itemgetter("average duration"),
         reverse=True
     )
-    print avg_duration_org
+    logger.info(avg_duration_org)
     return avg_duration_org
 
 
